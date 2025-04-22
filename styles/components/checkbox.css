@@ -1,0 +1,25 @@
+@layer components {
+/* apps/starter/components/elements/form-items/checkbox/theme.js */
+
+/**************************/
+/* Checkbox Default variant */
+/**************************/
+.checkbox_default-wrapper {
+	@apply flex items-center gap-x-2;
+}
+.checkbox_default-input {
+	@apply h-5 w-5 rounded p-0.5 flex items-center justify-center transition duration-200;
+}
+.checkbox_default-checked--enabled {
+	@apply bg-primary-500 cursor-pointer hover:ring-2 hover:ring-primary-300;
+}
+.checkbox_default-checked--disabled {
+	@apply bg-gray-300 cursor-not-allowed;
+}
+.checkbox_default-unchecked--enabled {
+	@apply border border-gray-300 cursor-pointer;
+}
+.checkbox_default-unchecked--disabled {
+	@apply border border-gray-300 cursor-not-allowed;
+}
+}

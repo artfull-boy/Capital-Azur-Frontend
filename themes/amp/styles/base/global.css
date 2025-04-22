@@ -1,0 +1,7 @@
+@tailwind base;
+
+@layer base {
+	body {
+		@apply bg-[rgb(var(--body-background))] text-black
+	}
+}

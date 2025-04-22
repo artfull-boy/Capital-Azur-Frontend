@@ -1,0 +1,25 @@
+@layer components {
+/* apps/starter/components/elements/form-items/input-date/theme.js */
+
+/**************************/
+/* Input range Date Default variant */
+/**************************/
+.range_default-wrapper {
+	@apply flex items-center justify-between h-full px-2 py-2 rounded-lg;
+}
+.range_default-title {
+	@apply text-primary-500;
+}
+.range_default-previous--wrapper {
+	@apply inline-flex p-1 text-sm font-medium text-primary-500 bg-white;
+}
+.range_default-previous--disabled {
+	@apply opacity-50 cursor-not-allowed;
+}
+.range_default-next--wrapper {
+	@apply inline-flex p-1 text-sm font-medium text-primary-500 bg-white;
+}
+.range_default-next--disabled {
+	@apply opacity-50 cursor-not-allowed;
+}
+}

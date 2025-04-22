@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+	body {
+		font-family: "Inter", sans-serif;
+	}
+}
+
+@import "./styles/theme-variables/colors.css";
+@import "./styles/theme-variables/typography.css";
+@import "./styles/theme-variables/container.css";
+@import "./styles/theme-variables/form.css";
+
+@import "./styles/base/global.css";
+@import "./styles/base/typography.css";
+
+@import "./styles/utilities/helpers.css";
+@import "./styles/utilities/input-tweaks.css";
+@import "./styles/utilities/listing.css";
+@import "./styles/utilities/screen-scroll.css";
+@import "./styles/utilities/ui-form.css";
+
+@import "./styles/plugins/google-maps.css";
+@import "./styles/plugins/nprogress.css";
+@import "./styles/plugins/react-select.css";
+@import "./styles/plugins/hamburgers/hamburgers.css";
+
+@config "./tailwind.config.js";

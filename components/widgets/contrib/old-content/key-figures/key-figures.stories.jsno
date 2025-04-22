@@ -1,0 +1,15 @@
+import KeyFigures from "./key-figures"
+
+export default {
+	title: "widgets/KeyFigures",
+}
+
+const Template = (args) => {
+	return (
+		<>
+			<KeyFigures />
+		</>
+	)
+}
+
+export const KeyFiguresStories = Template.bind({})

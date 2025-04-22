@@ -1,0 +1,107 @@
+export const select = {
+	default: {
+		groupField: "w-full mb-4",
+		label: "text-sm leading-5 mb-2",
+		description: "text-sm text-gray-400 mt-1",
+		wrapper: "w-full relative",
+		button: {
+			base: "select_default-btn",
+			icon: {
+				id: "chevron-down",
+				width: "30",
+				height: "30",
+				className: "select_default-icon",
+			},
+			hasError: "border border-error-500",
+		},
+		options: {
+			wrapper: "select_default-option--wrapper",
+			base: "select_default-option--base",
+			active: "select_default-option--active",
+			inactive: "select_default-option--inactive",
+			icon: {
+				id: "check-solid",
+				width: "15",
+				height: "15",
+				className: "select_default-option--icon",
+			},
+		},
+		animation: {
+			enter: "transition ease-in duration-300",
+			enterFrom: "opacity-0 scale-0",
+			enterTo: "opacity-100 scale-1",
+			leave: "transition ease-in duration-100",
+			leaveFrom: "opacity-100",
+			leaveTo: "opacity-0",
+		},
+	},
+	secondary: {
+		groupField: "w-full mb-4",
+		label: "text-sm leading-5 mb-2",
+		description: "text-sm text-gray-400 mt-1",
+		wrapper: "w-full relative",
+		button: {
+			base: "select_secondary-btn",
+			icon: {
+				id: "chevron-down",
+				width: "30",
+				height: "30",
+				className: "select_secondary-icon",
+			},
+		},
+		options: {
+			wrapper: "select_secondary-option--wrapper",
+			base: "select_secondary-option--base",
+			active: "select_secondary-option--active",
+			inactive: "select_secondary-option--inactive",
+			icon: {
+				id: "check-solid",
+				width: "15",
+				height: "15",
+				className: "select_secondary-option--icon",
+			},
+		},
+		animation: {
+			enter: "transition ease-in duration-300",
+			enterFrom: "opacity-0 scale-0",
+			enterTo: "opacity-100 scale-1",
+			leave: "transition ease-in duration-100",
+			leaveFrom: "opacity-100",
+			leaveTo: "opacity-0",
+		},
+	},
+	inputAddon: {
+		groupField: "w-full mb-4",
+		label: "text-sm leading-5 mb-2",
+		wrapper: "w-full max-w-xs relative",
+		button: {
+			base: "select_addon-btn",
+			icon: {
+				id: "chevron-down",
+				width: "30",
+				height: "30",
+				className: "select_addon-icon",
+			},
+		},
+		options: {
+			wrapper: "select_addon-option--wrapper",
+			base: "select_addon-option--base",
+			active: "select_addon-option--active",
+			inactive: "select_addon-option--inactive",
+			icon: {
+				id: "d",
+				width: "15",
+				height: "15",
+				className: "select_addon-option--icon",
+			},
+		},
+		animation: {
+			enter: "transition ease-in duration-300",
+			enterFrom: "opacity-0 scale-0",
+			enterTo: "opacity-100 scale-1",
+			leave: "transition ease-in duration-100",
+			leaveFrom: "opacity-100",
+			leaveTo: "opacity-0",
+		},
+	},
+}

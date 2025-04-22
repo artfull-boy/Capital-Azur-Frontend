@@ -1,0 +1,13 @@
+import Testimonial from "./testimonial"
+// Use real data instead of this fake one
+import { data as items } from "./mock-data"
+
+export default {
+	title: "widgets/Testimonial",
+}
+
+const Template = (args) => {
+	return <Testimonial items={items} isRtl={false} enableDots={true} />
+}
+
+export const TestimonialStories = Template.bind({})

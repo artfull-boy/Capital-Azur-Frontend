@@ -1,0 +1,221 @@
+{
+  "LAST_SYNCED_DATE": 1744282135218,
+  "flags": [
+    {
+      "name": "system__shield",
+      "fieldLabel": "Enable shield",
+      "value": false,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "shield",
+      "namespace": "system"
+    },
+    {
+      "name": "system__shieldUsername",
+      "fieldLabel": "Username",
+      "value": "user",
+      "isSecure": true,
+      "type": "string",
+      "group": "shield",
+      "namespace": "system"
+    },
+    {
+      "name": "system__shieldPassword",
+      "fieldLabel": "Password",
+      "value": "password",
+      "isSecure": true,
+      "type": "string",
+      "group": "shield",
+      "namespace": "system"
+    },
+    {
+      "name": "system__shieldPaths",
+      "fieldLabel": "Paths",
+      "value": "",
+      "isSecure": true,
+      "type": "text",
+      "group": "shield",
+      "namespace": "system"
+    },
+    {
+      "name": "system__captcha",
+      "fieldLabel": "Enable captcha",
+      "value": true,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "captcha",
+      "namespace": "system"
+    },
+    {
+      "name": "system__language",
+      "fieldLabel": "Default language",
+      "value": "fr",
+      "isSecure": false,
+      "type": "string",
+      "group": "language",
+      "namespace": "system"
+    },
+    {
+      "name": "system__switchLang",
+      "fieldLabel": "Enable switch language",
+      "value": true,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "language",
+      "namespace": "system"
+    },
+    {
+      "name": "system__maintenanceMode",
+      "fieldLabel": "Enable maintenance mode",
+      "value": false,
+      "isSecure": true,
+      "type": "boolean",
+      "group": "global",
+      "namespace": "system"
+    },
+    {
+      "name": "system__fetchErrors",
+      "fieldLabel": "Catch fetch errors",
+      "value": true,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "global",
+      "namespace": "system"
+    },
+    {
+      "name": "system__screenStats",
+      "fieldLabel": "Enable Screen Stats",
+      "value": true,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "global",
+      "namespace": "system"
+    },
+    {
+      "name": "system__enableOffline",
+      "fieldLabel": "Enable offline",
+      "value": false,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "Offline",
+      "namespace": "system"
+    },
+    {
+      "name": "system__showOfflineMessage",
+      "fieldLabel": "Show offline Message",
+      "value": false,
+      "isSecure": false,
+      "type": "boolean",
+      "group": "Offline",
+      "namespace": "system"
+    },
+    {
+      "name": "system__offlineMessage",
+      "fieldLabel": "Offline message",
+      "value": "Maintenance en cours : Notre site est actuellement en mode de fonctionnement réduit en raison d'une panne de l'API. Nous travaillons pour restaurer toutes les fonctionnalités dès que possible. Veuillez nous excuser pour tout inconvénient.",
+      "isSecure": false,
+      "type": "text",
+      "group": "Offline",
+      "namespace": "system"
+    },
+    {
+      "name": "system__scriptSrc",
+      "fieldLabel": "script-src",
+      "value": "cdn.onesignal.com www.gstatic.com www.google.com www.youtube.com maps.googleapis.com onesignal.com connect.facebook.net static.addtoany.com cdn.ampproject.org",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__styleSrc",
+      "fieldLabel": "style-src",
+      "value": "cdn.fonts.net",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__imgSrc",
+      "fieldLabel": "img-src",
+      "value": "images.unsplash.com maps.gstatic.com maps.googleapis.com i.ytimg.com",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__fontSrc",
+      "fieldLabel": "font-src",
+      "value": "fonts.gstatic.com cdn.fonts.net",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__frameSrc",
+      "fieldLabel": "frame-src",
+      "value": "www.google.com www.youtube.com www.facebook.com",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__connectSrc",
+      "fieldLabel": "connect-src",
+      "value": "maps.googleapis.com cdn.onesignal.com www.youtube.com",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__mediaSrc",
+      "fieldLabel": "media-src",
+      "value": "res.cloudinary.com",
+      "isSecure": false,
+      "type": "text",
+      "group": "Security",
+      "namespace": "system"
+    },
+    {
+      "name": "system__google-search-console-id",
+      "fieldLabel": "Google Search Console ID",
+      "value": "CERuG1IOQHTiHmLpbBl2wXm992wXYKEVwBQlZiSxS1o",
+      "isSecure": false,
+      "type": "string",
+      "group": "Google Search Console",
+      "namespace": "system"
+    },
+    {
+      "name": "system__menus",
+      "fieldLabel": "Project menus (machine names seperated by comma)",
+      "value": "main,menu-top,footer,footer-bottom",
+      "isSecure": false,
+      "type": "string",
+      "group": "menus",
+      "namespace": "system"
+    },
+    {
+      "name": "system__captchaSiteKey",
+      "fieldLabel": "Site key",
+      "value": "6LdccOUeAAAAAKnRDy2yPKLc9YAy-Jn-CdKhrjUm",
+      "isSecure": false,
+      "type": "string",
+      "group": "captcha",
+      "namespace": "system"
+    },
+    {
+      "name": "system__captchaSecretKey",
+      "fieldLabel": "Secret key",
+      "value": "6LdccOUeAAAAAHKQlW3f3B5khCjx0B5rBFZTN7P1",
+      "isSecure": false,
+      "type": "string",
+      "group": "captcha",
+      "namespace": "system"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+import Formation from "./formation"
+// Use real data instead of this fake one
+import { data as items } from "./mock-data"
+
+export default {
+	title: "widgets/Formation",
+}
+
+const Template = () => {
+	return (
+		<Formation
+			items={items}
+			bgColors={["#052583", "#1947F3", "#7A87F6"]}
+			ctaText="En savoir plus"
+			ctaIcon="arrow-narrow-right-solid"
+			ctaTextRtl="اقرأ المزيد"
+			ctaIconRtl="arrow-narrow-left-solid"
+			isRtl={false}
+		/>
+	)
+}
+
+export const FormationStories = Template.bind({})

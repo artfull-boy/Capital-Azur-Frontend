@@ -1,0 +1,23 @@
+import { InlineForm } from "./inlineForm"
+import { DefaultForm } from "./defaultForm"
+import TrackedForm from "./trackedForm"
+
+const DefaultTemplate = () => {
+	return <DefaultForm></DefaultForm>
+}
+
+const InlineTemplate = () => {
+	return <InlineForm></InlineForm>
+}
+
+const TrackedTemplate = () => {
+	return <TrackedForm></TrackedForm>
+}
+
+export const DefaultFormStory = DefaultTemplate.bind({})
+export const InlineFormStory = InlineTemplate.bind({})
+export const TrackedFormStory = TrackedTemplate.bind({})
+
+export default {
+	title: "widgets/Forms",
+}

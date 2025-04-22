@@ -1,0 +1,93 @@
+@layer components {
+/* apps/starter/components/elements/badge/theme.js */
+
+/**************************/
+/* Badge Default variant */
+/**************************/
+.badge_default-wrapper {
+	@apply inline-flex items-center font-medium rounded-3xl;
+}
+
+/* Badge Default variant: sizes */
+.badge_default-xs {
+	@apply px-2.5 py-0.5 text-xs;
+}
+
+.badge_default-sm {
+	@apply px-3 py-2 text-sm;
+}
+
+.badge_default-base {
+	@apply px-3 py-[2px] text-sm;
+}
+
+/* Badge Default variant: Icon */
+.badge_default-icon {
+	@apply w-3 h-3 mr-2;
+}
+
+/* Badge Default variant: Color */
+.badge_default-color {
+	@apply text-white bg-primary-500;
+}
+
+/**************************/
+/* Badge Ribbon variant */
+/**************************/
+.badge_ribbon-wrapper {
+	@apply inline-flex items-center font-medium rounded absolute -left-[10px] top-2 before:absolute before:content-[''] before:bottom-[-10px] before:left-0 before:border-t-[13px] before:border-l-[11px] before:border-t-primary-700 before:border-l-transparent before:z-[1];
+}
+
+/* Badge Ribbon variant: sizes */
+.badge_ribbon-xs {
+	@apply px-2.5 py-0.5 text-xs;
+}
+
+.badge_ribbon-sm {
+	@apply px-3 py-2 text-sm;
+}
+
+.badge_ribbon-base {
+	@apply px-3 py-[2px] text-sm;
+}
+
+/* Badge Ribbon variant: Icon */
+.badge_ribbon-icon {
+	@apply w-3 h-3 mr-2;
+}
+
+/* Badge Ribbon variant: Color */
+.badge_ribbon-color {
+	@apply text-white bg-primary-500;
+}
+
+/**************************/
+/* Badge Inline variant */
+/**************************/
+.badge_inline-wrapper {
+	@apply inline-flex items-center font-medium rounded-3xl;
+}
+
+/* Badge Inline variant: sizes */
+.badge_inline-xs {
+	@apply text-xs;
+}
+
+.badge_inline-sm {
+	@apply text-sm;
+}
+
+.badge_inline-base {
+	@apply text-base;
+}
+
+/* Badge Inline variant: Icon */
+.badge_inline-icon {
+	@apply w-3 h-3 mr-2;
+}
+
+/* Badge Inline variant: Color */
+.badge_inline-color {
+	@apply text-primary-600 hover:text-primary-300;
+}
+}

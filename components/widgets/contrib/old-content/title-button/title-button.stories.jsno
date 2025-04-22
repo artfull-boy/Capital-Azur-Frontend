@@ -1,0 +1,13 @@
+import TitleButton from "./title-button"
+// Use real data instead of this fake one
+import { data as items } from "./mock-data"
+
+export default {
+	title: "widgets/TitleButton",
+}
+
+const Template = () => {
+	return <TitleButton items={items} bgColor="#03164E" ctaIcon="download-solid" />
+}
+
+export const TitleButtonStories = Template.bind({})

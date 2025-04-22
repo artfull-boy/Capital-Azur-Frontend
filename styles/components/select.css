@@ -1,0 +1,76 @@
+/* apps/starter/components/elements/form-items/select/theme.js */
+
+/**************************/
+/* Select Default variant */
+/**************************/
+.select_default-btn {
+	@apply relative w-full cursor-default truncate rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-primary-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-warning-300 sm:text-sm;
+}
+.select_default-icon {
+	@apply pointer-events-none absolute top-1/2 -translate-y-1/2 flex items-center pr-2 bg-primary right-1;
+}
+.select_default-option--wrapper {
+	@apply absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md border border-gray-300 bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
+}
+.select_default-option--base {
+	@apply relative cursor-default select-none truncate px-3 py-2;
+}
+.select_default-option--active {
+	@apply bg-warning-100 font-medium text-warning-900;
+}
+.select_default-option--inactive {
+	@apply font-normal text-gray-900;
+}
+.select_default-option--icon {
+	@apply absolute top-1/2 flex -translate-y-1/2 items-center text-warning-600 ltr:left-3 rtl:right-3;
+}
+
+/**************************/
+/* Select Secondary variant */
+/**************************/
+.select_secondary-btn {
+	@apply relative w-full cursor-default truncate rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-primary-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-warning-300 sm:text-sm;
+}
+.select_secondary-icon {
+	@apply pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2;
+}
+.select_secondary-option--wrapper {
+	@apply absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
+}
+.select_secondary-option--base {
+	@apply relative cursor-default select-none truncate py-2 pl-10 pr-4;
+}
+.select_secondary-option--active {
+	@apply bg-warning-100 font-medium text-warning-900;
+}
+.select_secondary-option--inactive {
+	@apply font-normal text-gray-900;
+}
+.select_secondary-option--icon {
+	@apply absolute top-1/2 flex -translate-y-1/2 items-center text-warning-600 ltr:left-3 rtl:right-3;
+}
+
+/**************************/
+/* Select Addon variant */
+/**************************/
+.select_addon-btn {
+	@apply relative w-full truncate rounded-md bg-gray-200 py-3 pl-3 pr-10 text-left focus:outline-none focus-visible:border-primary-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-warning-300 sm:text-sm;
+}
+.select_addon-icon {
+	@apply pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2 pt-4;
+}
+.select_addon-option--wrapper {
+	@apply absolute z-50 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
+}
+.select_addon-option--base {
+	@apply relative cursor-default select-none truncate py-2 pl-4 pr-4;
+}
+.select_addon-option--active {
+	@apply bg-warning-100 font-medium text-warning-900;
+}
+.select_addon-option--inactive {
+	@apply font-normal text-gray-900;
+}
+.select_addon-option--icon {
+	@apply absolute top-1/2 flex -translate-y-1/2 items-center text-warning-600 ltr:left-3 rtl:right-3;
+}

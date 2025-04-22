@@ -1,0 +1,13 @@
+import Team from "./team"
+// Use real data instead of this fake one
+import { data as items } from "./mock-data"
+
+export default {
+	title: "widgets/Team",
+}
+
+const Template = (args) => {
+	return <Team items={items} isRtl={false} enableArrows={true} enableDots={true} />
+}
+
+export const TeamStories = Template.bind({})

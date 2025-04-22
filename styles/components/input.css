@@ -1,0 +1,190 @@
+@layer components {
+/* apps/starter/components/elements/form-items/input/theme.js */
+
+/**************************/
+/* Checkboxes Default variant */
+/**************************/
+.input_default-container {
+	@apply relative w-full;
+}
+.input_default-wrapper {
+	@apply relative flex w-full border border-gray-200 hover:border-gray-400;
+}
+.input_default-full {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_default-right {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_default-left {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_default-inside {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_default-label {
+	@apply inline-block mb-1 text-sm font-medium text-gray-700;
+}
+.input_default-addonBefore {
+	@apply bg-gray-200 flex items-center max-w-[30%];
+}
+.input_default-addonAfter {
+	@apply bg-gray-200 flex items-center max-w-[30%];
+}
+.input_default-input {
+	@apply w-full px-3 py-3 text-sm placeholder-gray-500 border-none outline-none appearance-none grow focus:ring-0 text-left;
+}
+.input_default-input[type="date"] {
+	@apply rtl:flex-row-reverse;
+}
+.input_default-prefix {
+	@apply absolute top-0 bottom-0 flex items-center my-auto left-3;
+}
+.input_default-sufix {
+	@apply absolute top-0 bottom-0 flex items-center my-auto right-3;
+}
+.input_default-hasError {
+	@apply border-error-500 hover:border-error-600 focus-within:ring-error-400;
+}
+.input_default-description {
+	@apply mt-1 text-sm text-gray-400;
+}
+
+/**************************/
+/* Checkboxes Inline variant */
+/**************************/
+.input_inline-container {
+	@apply relative flex items-center w-full;
+}
+.input_inline-wrapper {
+	@apply relative flex w-full border border-gray-200 rounded-lg hover:border-gray-300;
+}
+.input_inline-full {
+	@apply relative flex w-full rounded-lg grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_inline-right {
+	@apply relative flex w-full rounded-r-lg grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_inline-left {
+	@apply relative flex w-full rounded-l-lg grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_inline-inside {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_inline-label {
+	@apply mr-6 text-sm font-medium text-gray-700 whitespace-nowrap;
+}
+.input_inline-addonBefore {
+	@apply bg-gray-200 rounded-l-lg flex items-center max-w-[30%];
+}
+.input_inline-addonAfter {
+	@apply bg-gray-200 rounded-r-lg flex items-center max-w-[30%];
+}
+.input_inline-input {
+	@apply w-full px-3 py-3 text-sm placeholder-gray-500 border-none rounded-md outline-none appearance-none grow focus:ring-0;
+}
+.input_inline-prefix {
+	@apply flex items-center pl-3;
+}
+.input_inline-sufix {
+	@apply flex items-center pr-3;
+}
+.input_inline-hasError {
+	@apply border-error-500 hover:border-error-600 focus-within:ring-error-400;
+}
+.input_inline-description {
+	@apply mt-1 text-sm text-gray-400;
+}
+
+/**************************/
+/* Checkboxes Overlay variant */
+/**************************/
+.input_overlay-container {
+	@apply relative flex items-center w-full;
+}
+.input_overlay-wrapper {
+	@apply relative flex w-full border-b-2 border-white hover:border-gray-300;
+}
+.input_overlay-full {
+	@apply relative flex w-full rounded-lg grow;
+}
+.input_overlay-right {
+	@apply relative flex w-full grow;
+}
+.input_overlay-left {
+	@apply relative flex w-full grow;
+}
+.input_overlay-inside {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_overlay-label {
+	@apply mr-6 text-sm font-medium text-gray-700 whitespace-nowrap;
+}
+.input_overlay-addonBefore {
+	@apply bg-gray-200 rounded-l-lg flex items-center max-w-[30%];
+}
+.input_overlay-addonAfter {
+	@apply bg-gray-200 rounded-r-lg flex items-center max-w-[30%];
+}
+.input_overlay-input {
+	@apply appearance-none p-3 pl-0 w-full placeholder-white outline-none grow border-none focus:!ring-0 text-white text-sm !bg-transparent;
+}
+.input_overlay-prefix {
+	@apply flex items-center;
+}
+.input_overlay-sufix {
+	@apply flex items-center;
+}
+.input_overlay-hasError {
+	@apply border-error-500 hover:border-error-600 focus-within:ring-error-400;
+}
+.input_overlay-description {
+	@apply mt-3 text-sm text-right text-white;
+}
+
+/**************************/
+/* Checkboxes Search variant */
+/**************************/
+.input_search-container {
+	@apply relative flex items-center w-full;
+}
+.input_search-wrapper {
+	@apply relative flex w-full border border-gray-200 hover:border-gray-300;
+}
+.input_search-full {
+	@apply relative flex w-full rounded-lg grow;
+}
+.input_search-right {
+	@apply relative flex w-full grow;
+}
+.input_search-left {
+	@apply relative flex w-full grow;
+}
+.input_search-inside {
+	@apply relative flex w-full grow focus-within:ring-1 focus-within:ring-warning-400;
+}
+.input_search-label {
+	@apply mr-6 text-sm font-medium text-gray-700 whitespace-nowrap;
+}
+.input_search-addonBefore {
+	@apply bg-gray-200 rounded-l-lg flex items-center max-w-[30%];
+}
+.input_search-addonAfter {
+	@apply bg-gray-200 rounded-r-lg flex items-center max-w-[30%];
+}
+.input_search-input {
+	@apply appearance-none p-3 w-full placeholder-gray-400 outline-none grow rounded-md border-none focus:!ring-0 text-sm bg-transparent;
+}
+.input_search-prefix {
+	@apply flex items-center pl-3;
+}
+.input_search-sufix {
+	@apply flex items-center;
+}
+.input_search-hasError {
+	@apply border-error-500 hover:border-error-600 focus-within:ring-error-400;
+}
+.input_search-description {
+	@apply mt-3 text-sm text-right text-white;
+}
+}

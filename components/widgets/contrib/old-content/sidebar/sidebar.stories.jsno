@@ -1,0 +1,15 @@
+import { Sidebar } from "./sidebar"
+
+const Template = (args) => {
+	return (
+		<div className="relative">
+			<Sidebar></Sidebar>
+		</div>
+	)
+}
+
+export const SidebarStories = Template.bind({})
+
+export default {
+	title: "widgets/Sidebar",
+}

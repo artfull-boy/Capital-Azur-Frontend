@@ -1,0 +1,23 @@
+@layer components {
+	/* apps/starter/components/elements/form-items/select-native/theme.js */
+
+	/*********************************/
+	/* Select Native Default variant */
+	/*********************************/
+	.select_native__default-wrapper {
+		@apply flex flex-col md:flex-row md:items-center;
+	}
+	.select_native__default-select {
+		@apply mt-1 block w-full appearance-none rounded-md border border-gray-300 bg-[length:16px] bg-[center_right_8px] bg-no-repeat py-2 pl-3 pr-10 text-base focus:border-primary-500 focus:outline-none focus:ring-primary-500 sm:text-sm;
+	}
+
+	/*********************************/
+	/* Select Native Filter variant */
+	/*********************************/
+	.select_native__filter-wrapper {
+		@apply flex flex-col md:flex-row md:items-center;
+	}
+	.select_native__filter-select {
+		@apply block h-11 w-full appearance-none rounded-lg border border-gray-300 bg-[length:16px] bg-[center_right_8px] bg-no-repeat py-2 pl-3 pr-10 text-sm focus:border-primary-500 focus:outline-none focus:ring-primary-500;
+	}
+}

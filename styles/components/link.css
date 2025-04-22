@@ -1,0 +1,15 @@
+@layer components {
+/* apps/starter/components/elements/link/theme.js */
+
+.permalink {
+	@apply text-primary-500 font-medium border-primary-500 inline-flex gap-2 items-center transition-all duration-300 relative before:absolute before:content-[''] before:w-8 before:border-b-[3px] before:border-primary-500 before:left-0 before:-bottom-1 group-hover:before:w-full before:transition-all hover:before:w-full;
+}
+
+.btnPrimary {
+	@apply inline-flex items-center gap-2 px-3 py-3 text-sm text-white bg-primary-500 border-primary-500 hover:bg-white hover:text-primary-500;
+}
+
+.download {
+	@apply inline-flex items-center gap-2 font-medium transition-all duration-300 text-primary-500 border-primary-500 group-hover:text-primary-700;
+}
+}

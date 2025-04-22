@@ -1,0 +1,41 @@
+@layer components {
+/* apps/starter/components/elements/form-items/textarea/theme.js */
+
+/****************************/
+/* Textarea Default variant */
+/****************************/
+.textarea_defaut-base {
+	@apply relative w-full px-3 py-3 border border-gray-300 focus:ring-0 focus:border-warning-300;
+}
+.textarea_defaut-label {
+	@apply mb-2 text-sm font-medium text-gray-700;
+}
+.textarea_defaut-description {
+	@apply mt-1 text-sm text-gray-400;
+}
+.textarea_defaut-counter {
+	@apply absolute text-sm bottom-2 right-2;
+}
+.textarea_defaut-error {
+	@apply border border-error-500 hover:border-error-600 focus-within:ring-error-400;
+}
+
+/****************************/
+/* Textarea Rounded variant */
+/****************************/
+.textarea_rounded-base {
+	@apply relative w-full px-3 py-3 border border-gray-300 rounded-md focus:ring-0 focus:border-warning-300;
+}
+.textarea_rounded-label {
+	@apply mb-2 text-sm font-medium text-gray-700;
+}
+.textarea_rounded-description {
+	@apply mt-1 text-sm text-gray-400;
+}
+.textarea_rounded-counter {
+	@apply absolute text-sm bottom-2 right-2;
+}
+.textarea_rounded-error {
+	@apply border border-error-500 hover:border-error-600 focus-within:ring-error-400;
+}
+}

@@ -1,0 +1,11 @@
+import Mediatheque from "./mediatheque"
+
+export default {
+	title: "widgets/Mediatheque",
+}
+
+const Template = (args) => {
+	return <Mediatheque />
+}
+
+export const MediathequeStories = Template.bind({})

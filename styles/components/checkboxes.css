@@ -1,0 +1,16 @@
+@layer components {
+/* apps/starter/components/elements/form-items/checkboxes/theme.js */
+
+/**************************/
+/* Checkboxes Default variant */
+/**************************/
+.checkboxes_default-container {
+	@apply flex flex-wrap items-center gap-4;
+}
+.checkboxes_default-element {
+	@apply shrink-0 grow;
+}
+.checkboxes_default-label {
+	@apply text-sm font-medium text-gray-700 whitespace-nowrap;
+}
+}

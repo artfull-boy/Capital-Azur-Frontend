@@ -1,0 +1,8 @@
+import React from "react"
+import { TimeLine } from "./timeline"
+
+export const TimelineStories = () => <TimeLine iconId="lightning-bolt-solid" />
+
+export default {
+	title: "Widgets/Timeline",
+}
